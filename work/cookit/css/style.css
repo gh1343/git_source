@@ -304,6 +304,8 @@ background-color: #000; color:#fff;
    .best>li{
      margin-left: 0; margin-bottom: 20px;}
    .best>li:last-child{display: block;}
+   /* review */
+   .review_txt{padding: 30px 0;}
    /* footer */
    .f_right ul,.f_right p{
      display: none;}
