@@ -11,12 +11,7 @@ html,body{
 .inner a,p{color:white;}
 .brand_source,.brand_news{color: white;}
 img{ width: 100%; vertical-align: top;}
-/* .logo a {
-      display:block;  height:50px; 
-      background:url(../img/btm_logo.png) no-repeat center center; 
-      background-size:contain;
-      text-indent:-9999px;overflow:hidden; border: 1px solid rgb(209, 130, 130);
-      } */
+
 
 #container { width: 100%;}
 header {background-color: black;width:100%;
@@ -64,8 +59,6 @@ header {background-color: black;width:100%;
       display:block;}
 .gnb_left li:nth-child(4):hover .btm_tab3{
       display:block;}
-/* .gnb_left li:first-child:hover .ctb{
-      display:block;} */
  
 .ctb{
       display:none;
@@ -110,7 +103,7 @@ header {background-color: black;width:100%;
 .btm_tab2 {
       position: absolute; left:190px; z-index: 3;
       display:none;}
-.ex_center {}
+
 .ex_center li {
       width: 150px; height: 40px; padding-top:10px;
       background-color: white;
@@ -123,7 +116,7 @@ header {background-color: black;width:100%;
 .btm_tab3 {
       position: absolute; left:305px; z-index: 4;
       display:none;}
-.event {}
+
 .event li {
       width: 150px; height: 40px; padding-top:10px;
       background-color: white;
@@ -161,8 +154,7 @@ header {background-color: black;width:100%;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      width:300%;
-      /* animation:carmove 2s forwards; */}
+      width:300%;}
 .vsl_slides>div{
       width: 99%; margin: 0 0.5%;}
 .allow{
@@ -174,8 +166,6 @@ header {background-color: black;width:100%;
         width: 21px; height:38px; 
         background-repeat: no-repeat; 
         background-size: contain;}
-        /* .allow a.disabled{
-            display: none;} */
       .aw_left{ background-image: url(../img/slide_button_left.png);}
       .aw_right{background-image: url(../img/slide_button_right.png);}
       .allow>a.in{ visibility: hidden;}
@@ -216,7 +206,6 @@ header {background-color: black;width:100%;
       position: absolute; justify-content: space-between;
       align-items: center;
       display: flex;
-      /* flex-wrap: nowrap; */
       width: 165%;
       transition: 0.5s;
 }
@@ -257,8 +246,6 @@ header {background-color: black;width:100%;
       position: relative;
       width:100%; height: 1500px;
       overflow: hidden; 
-    
-      /* display: flex; */
 }
 .word1{ position: relative; top: 2%;
        width: 100%; height: 30%;}
@@ -315,7 +302,6 @@ header {background-color: black;width:100%;
       opacity: 0.3;}
 
 .word2{ 
-      /* border: 1px solid rgb(255, 255, 255); */
       position: relative; top: 2%; left: 22%;
       width: 100%; height: 30%;
 }
@@ -385,7 +371,6 @@ header {background-color: black;width:100%;
 .youtube_wrap_inner { 
      height: 500px;
       position: relative;
-      /* display:flex; */
 }
 .yt_media {}
 video { position: absolute; 
@@ -403,7 +388,6 @@ video { position: absolute;
       width: 80%; height: 85%;
       background-color:rgb(172, 172, 172);
       opacity: 0.3;
-      /* z-index: -1; */
 }
 /* new_wrap */
 .news {
@@ -411,10 +395,9 @@ video { position: absolute;
 .brand_news{
       margin-bottom:50px;
       color:rgb(216, 216, 216);}
-.news_wrap{ border: 1px solid #000;
+.news_wrap{
       position: relative; height: 195px; margin:0 auto;}
 .news_list_sliderWrap{
-      border: 1px solid #000;
       position: relative; 
     /* display: flex;  */
     overflow: hidden; margin: 0 auto;
@@ -471,7 +454,6 @@ video { position: absolute;
 .ft_left p {
       line-height:20px; font-size: 12px;
       color:rgb(156, 155, 155);}
-.ft_right {}
 select{
       width:100px; height:30px;
       background-color:rgb(216, 216, 216);}

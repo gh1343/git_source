@@ -15,24 +15,9 @@ $(document).ready(function(){
         $button_right = $('.button_right');
         
 
-//  console.log(slideCount);
+
   let currentPt = 0;
-  // input='',
-  // timer;
-// main 슬라이드
-  // $vsl_slides.css('width',100*slideCount+'%');
-  // $vsl_slide.each(function(i){
-  //   input+='<div>'+(i+1)+'</div>';
-  //   $indicators.html(input);
-  // })
-  // update();
-  // $indicators.find('a').click(function(e){
-  //   e.preventDefault();
-  //   let W = $(this).index();
-  //   console.log(W);
-  //   gotoSlider(W);
-  //   $(this).addClass('in').siblings().removeClass('in');
-  // })
+
 
   $('.gnb_left>li:first-child').mouseenter(function(){
     $(this).find('.ctb').stop().slideDown();
@@ -65,46 +50,8 @@ $(document).ready(function(){
   function gotoSlider(W){
       $vsl_slides.animate({'left':-100*W+'%'},700);
       currentPt=W;
-      // update();
     }
-    // $allow.find('a').click(function(){
-    //   if($(this).hasClass('aw_left')){
-    //     // console.log('y')
-    //     gotoSlider(currentPt-1)
-    //   }else{
-    //     // console.log('n')
-    //     gotoSlider(currentPt+1)
-    //   }
-    // })
-    // function update(){
-    //   if(currentPt===0){
-    //     $aw_left.addClass('disabled');
-    //   }else{
-    //     $aw_left.removeClass('disabled');
-    //   }
-    //   if(currentPt==slideCount-1){
-    //     $aw_right.addClass('disabled');
-    
-    //   }else{
-    //     $aw_right.removeClass('disabled');
-    
-    //   }
-    
-    //   $indicators.find('a').eq(currentPt).addClass('in').siblings().removeClass('in');
-    // }
-    // function start(){
-    //   timer=setInterval(function(){
-    //   let nextW= (currentPt+1)%slideCount; //1,2,0,1,2,0
-    //   console.log(nextW);
-    //   gotoSlider(nextW)
-    //   },3500)
-    // }
-    // // start()
-    // //stop()
-    // function stop(){
-    //   clearInterval(timer)
-    // }
-    
+
 
 
 // news 슬라이드
