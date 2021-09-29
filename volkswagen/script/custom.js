@@ -27,6 +27,10 @@ $(document).ready(function(){
     $('.ctb').stop().slideUp(200);
     $('.ctb').hide();
   })
+  $('.gnb_left>li:nth-child(2)').mouseenter(function(){
+    $('.ctb').stop().slideUp(200);
+    $('.ctb').hide();
+  })
   $aw_left.click(function(){
     gotoSlider(currentPt-1);
       if(currentPt===0){
