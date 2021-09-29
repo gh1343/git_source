@@ -1,9 +1,13 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
-body {font-family: 'Noto Sans KR', sans-serif; margin:0;}
-h1,h2,h3,h4,h5,h6 {margin:0;}
-ul,ol {list-style:none; margin:0; padding:0;}
-a {text-decoration:none; color:inherit}
+body {
+      font-family: 'Noto Sans KR', sans-serif; margin:0;}
+h1,h2,h3,h4,h5,h6 {
+      margin:0;}
+ul,ol {
+      list-style:none; margin:0; padding:0;}
+a {
+      text-decoration:none; color:inherit}
 html,body{
       background-color: rgb(0, 0, 0); 
       width:100%; min-width: 1200px;}
@@ -14,7 +18,8 @@ img{ width: 100%; vertical-align: top;}
 
 
 #container { width: 100%;}
-header {background-color: black;width:100%;
+header {
+      background-color: black;width:100%;
       position: fixed; z-index: 10;}
 /* header_top */
 .header_top {
@@ -139,9 +144,11 @@ header {background-color: black;width:100%;
 .gnb_right a {}
 /* visual */
 .vsl_wrap { 
+    
       position: relative; margin:0 auto;
       height: 600px;}
 .vsl_slideWrap {
+     
       position: relative;  
       z-index: 0;
       margin: 0 auto;
@@ -149,6 +156,7 @@ header {background-color: black;width:100%;
       width: 100%;
       height: 100%;}
 .vsl_slides {
+     
       position: absolute;
       flex-wrap:nowrap;
       display: flex;
@@ -160,13 +168,15 @@ header {background-color: black;width:100%;
 .allow{
       position: absolute; top: 50%; transform: translateY(-50%); 
       left: 0; width: 100%;
-      display: flex; justify-content: space-between;}
+      display: flex; justify-content: space-around;}
       .allow>a{ 
         visibility: visible; 
         width: 21px; height:38px; 
         background-repeat: no-repeat; 
         background-size: contain;}
-      .aw_left{ background-image: url(../img/slide_button_left.png);}
+      .aw_left{ 
+            padding-right: 90%;
+            background-image: url(../img/slide_button_left.png);}
       .aw_right{background-image: url(../img/slide_button_right.png);}
       .allow>a.in{ visibility: hidden;}
       /* @keyframes carmove{
@@ -238,20 +248,21 @@ header {background-color: black;width:100%;
 .button_right{
       background-image: url(../img/slide_button_right.png);}
 /* word */
-.sec1{ padding: 100px 0;
-
+.sec1{ padding: 100px 0 0 0;
      
 }
-.sec1_inner{ 
+.sec1_inner{
       position: relative;
       width:100%; height: 1500px;
       overflow: hidden; 
 }
-.word1{ position: relative; top: 2%;
-       width: 100%; height: 30%;}
+.word1{ 
+      position: relative; top: 2%;
+      width: 100%; height: 30%;
+      }
 .sec1_inner h2{ 
-      position: absolute; top: 0; left: 0;
-      font-size: 34px;
+      position: absolute; top: 13%; left: 70%;
+      font-size: 38px;
       color: white}
 .o_word1{ 
       position:absolute; top:8%; left:0;
@@ -274,13 +285,13 @@ header {background-color: black;width:100%;
       100%{opacity: 0;}
     }
 .o_word1 p:first-child{ 
-      position: absolute; top: 65%; left: 35%; 
+      position: absolute; top: 42%; left: 70%; 
       color: white;
-      font-size: 25px;
+      font-size: 23px;
       font-weight: bold;
       }
 .o_word1 p:nth-child(2){ 
-      position: absolute; top: 80%; left: 38%; 
+      position: absolute; top: 53%; left: 70%; 
       color: white;
       font-size: 15px;
       font-weight: bold;
@@ -295,21 +306,21 @@ header {background-color: black;width:100%;
       opacity: 0; animation-delay: 5s;
       background-image: url(../img/event2.png);
 }
-.bgc1{
+/* .bgc1{
       position: absolute; top: 21%; left: 11%;
       background-color: rgb(92, 92, 92);
       width: 67%; height: 100%;
-      opacity: 0.3;}
+      opacity: 0.3;} */
 
 .word2{ 
       position: relative; top: 2%; left: 22%;
       width: 100%; height: 30%;
 }
 .word2 h2{ 
-      position: absolute; top: 49%; left: 55%;
-      font-size: 34px;}
+      position: absolute; top: 117%; left: -16%;
+      font-size: 38px;}
 .o_word2{ 
-      position:absolute; top:65%; left:13%;
+      position:absolute; top:85%; left:13%;
       width:100%; height:100%;
       visibility: hidden;
       opacity: 0;
@@ -317,8 +328,8 @@ header {background-color: black;width:100%;
       background-image: url(../img/event3.png);
       background-repeat: no-repeat;
       background-size: contain;
-      overflow: hidden;
-      z-index: 2;
+      /* overflow: hidden; */
+      /* z-index: 2; */
 }
 .o_word2:first-child{
       opacity: 0; animation-delay: 0.1s;
@@ -328,13 +339,14 @@ header {background-color: black;width:100%;
       background-image: url(../img/event4.png);
 }
 .o_word2 p:first-child{ 
-      position: absolute; top: 68%; left: 9%; 
+      position: absolute; top: 45%; left: -28%; 
       color: white;
       font-size: 25px;
       font-weight: bold;
+      /* z-index: 100; */
       }
 .o_word2 p:nth-child(2){ 
-      position: absolute; top: 79%; left: 8%; 
+      position: absolute; top: 57%; left: -28%; 
       color: white;
       font-size: 15px;
       font-weight: bold;
@@ -342,11 +354,11 @@ header {background-color: black;width:100%;
 .o_word2 p:nth-child(2) span{ 
       font-size: 13px;
       }          
-.bgc2{
+/* .bgc2{
       position: absolute; top: 80%; left: -1%;
       background-color: rgb(92, 92, 92);
       width: 100%; height: 100%;
-      opacity: 0.3;}
+      opacity: 0.3;} */
 @keyframes slideY{
       0%{opacity: 0;}
       20%{opacity: 1; visibility: visible;}
@@ -362,31 +374,30 @@ header {background-color: black;width:100%;
 
 
 /* youtube_wrap */
-.youtube_wrap{
-     
-      padding: 100px 0 100px 0;}
-.brand_source {
-      margin-bottom: 50px; 
-      color:rgb(216, 216, 216);}
+.youtube_wrap{ padding: 0 0 100px 0;}
 .youtube_wrap_inner { 
-     height: 500px;
+      height: 500px;
       position: relative;
 }
+.brand_source { 
+      position: absolute; top: 30%; left: 57%;
+      color:rgb(216, 216, 216);
+      }
 .yt_media {}
-video { position: absolute; 
+video { position: absolute; top: 16%; left: 0; 
       z-index: 2;
       width:643px; height: 348px;}
 .yt_text {
-      position: absolute; left: 52%;
+      position: absolute; left: 49%; top: 30%;
       margin-left:100px; margin-top:50px;}
 .yt_text p{
       color:rgb(156, 155, 155);}
 .yt_text p:first-child{
       font-size:18px;}
 .bgc3{ 
-      position: absolute; left: 20%; top: -3%;
-      width: 80%; height: 85%;
-      background-color:rgb(172, 172, 172);
+      position: absolute; left: 20%; top: 13%;
+      width: 80%; height: 71%;
+      background-color:rgb(57, 38, 34, 1);
       opacity: 0.3;
 }
 /* new_wrap */
@@ -440,7 +451,7 @@ video { position: absolute;
 
 /*  ft_inner */
 .ft {
-      border-top:solid 2px rgb(100, 100, 100);
+      border-top:solid 1px rgb(59, 59, 59);
       padding-top:20px;width:100%;}
 .ft_inner {
       display:flex;
@@ -455,5 +466,5 @@ video { position: absolute;
       line-height:20px; font-size: 12px;
       color:rgb(156, 155, 155);}
 select{
-      width:100px; height:30px;
+      width:100px; height:30px; padding-left: 5px;
       background-color:rgb(216, 216, 216);}
