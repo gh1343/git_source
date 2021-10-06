@@ -136,6 +136,7 @@ header{
   background-image: url(../images/main_img3.png);
   opacity: 1; animation-delay: 8s;}
 .main_txt{
+  width: 100%;
   position: absolute; top:40%; left:50%;
   transform: translateX(-50%);
   text-align: center;
